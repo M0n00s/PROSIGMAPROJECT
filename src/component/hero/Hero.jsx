@@ -8,10 +8,10 @@ export const Hero = () => {
       <div className="heroText">
         <img className="starsImg p2" src={starsImg} alt="" />
         <h1>
-          Spotless Solutions{" "}
-          <span className="textNaranja">for Your Business</span>
+          provider in the
+          <span className="textNaranja">industrial cleaning</span>
         </h1>
-        <h2>Leading the way in health and safety innovation</h2>
+        <h2>services that optimize the maintenance of commercial equipment</h2>
       </div>
       <div className="heroBtn">
         <button className="naranja">Contact us</button>

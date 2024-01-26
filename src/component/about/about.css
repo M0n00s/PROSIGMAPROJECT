@@ -1,0 +1,45 @@
+.aboutContainer{
+    max-width: 1200px;
+    margin: auto;
+}
+.aboutContainer h3{
+    color: var(--main-text);
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+.aboutContainer p{
+    color: var(--main-text);
+    width: 90%;
+    margin: auto;
+    /* text-align: center; */
+}
+.aboutBoxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+    /* border: 1px solid green; */
+
+}
+.aboutBoxes img{
+    width: 100px;
+ 
+}
+
+.aboutCaraterCont{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .aboutLogoCont,.aboutCaraterCont{
+        width: 100%;
+    }
+    .aboutLogoCont{
+        height: 10em;
+        padding: 1em;
+    }
+
+
+}

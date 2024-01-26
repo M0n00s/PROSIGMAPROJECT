@@ -11,7 +11,15 @@ export const Navbar = () => {
 
   return (
     <header>
-      <h3> PROSIGMA</h3>
+      <div className="logoCont">
+        <img
+          src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706311083/PROSIGMA/Sin-t%C3%ADtaulo-1_m2cx1z.png"
+          alt="logo"
+          className="logoImg"
+        />
+        <h3> PROSIGMA</h3>
+      </div>
+
       <nav ref={navRef}>
         <a href="#">Home</a>
         <a href="#">About</a>

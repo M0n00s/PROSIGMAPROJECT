@@ -10,6 +10,15 @@ header {
 	color: var(--main-text);
 	
 }
+.logoImg{
+	height: 50%;
+}
+.logoCont{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
 nav{
 	z-index: 10000;
 }
@@ -52,6 +61,9 @@ header .nav-btn {
 		gap: 1.5rem;
 		background-color: var(--main-background);
 		transition: 1s;
+	}
+	.logoCont h3{
+		display: none;
 	}
 
 	header .responsive_nav {
