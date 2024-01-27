@@ -42,7 +42,7 @@ export const AboutCard = () => {
     <div className="container">
       <div className="card__container">
         {dataCard.map((card) => (
-          <Card {...card} />
+          <Card key={card.title} {...card} />
         ))}
       </div>
     </div>

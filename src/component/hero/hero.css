@@ -100,4 +100,10 @@
         padding: 1.5em 10em;
         width: 90%;
     }
+    .heroText h1{
+        font-size: 3.5em;
+    }
+    .heroText h2{
+        line-height: 1.2em;
+    }
 }

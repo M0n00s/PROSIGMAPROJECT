@@ -1,0 +1,71 @@
+.testimonialsCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+    width: 100%;
+    padding-top: 5em;
+}
+.testititle{
+    font-size: 3.5em;
+    color: var(--main-text);
+    line-height: 1em;
+
+}
+.testimonialsTextCont{
+    min-width: 19em;
+    background-color: var(--ligth-background);
+    border-radius: 25px;
+    padding: 2em;
+}
+.testicardcont{
+width: 40%;
+}
+
+.testimonialsTextCont h2 {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--secondary-text);
+}
+.testimonialsTextCont p{
+    line-height: 1.2em;
+    color: var(--main-text);
+}
+
+.testiStars{
+    color: var(--secondary-text);
+    font-size: 2em;
+}
+
+.testimonialsPersonCont{
+    padding: 1em;    
+    line-height: 1em;
+}
+.textNaranja{
+    color: var(--secondary-text);
+}
+.textMain{
+    color: var(--main-text);
+}
+
+@media only screen and (max-width: 1024px) {
+    .testimonialsCont{
+        flex-wrap: wrap;
+        gap: .5em;
+    }
+    .testititle{
+        padding-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 824px) {
+    .testicardcont{
+        width: 100%;
+    }
+    .testititle{
+        text-align: center;
+        padding-bottom: 1em;
+    }
+}
