@@ -23,6 +23,8 @@ export const Navbar = () => {
       <nav ref={navRef}>
         <a href="#">Home</a>
         <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Location</a>
         <a href="#">Contact us</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <IoIosCloseCircle />

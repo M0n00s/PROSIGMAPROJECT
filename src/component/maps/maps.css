@@ -1,0 +1,13 @@
+.mapsCont{
+    width: 100%;
+}
+.mapsCont h3{
+    color: var(--main-text);
+    font-size: 3em;
+    text-align: center;
+    padding: 2em 0em 1em 0em;
+}
+.mapsBoxCont{
+    background-color: var(--main-text);
+    height: 50vh;
+}
