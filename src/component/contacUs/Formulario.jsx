@@ -55,35 +55,35 @@ export const Formulario = () => {
       }}
       validationSchema={validationSchema}
       onSubmit={(valores, { resetForm }) => {
-        console.log({ valores });
+        // console.log({ valores });
         resetForm();
         setspiner(true);
         // console.log("submit");
 
         // email js
-        // emailjs
-        //   .send(
-        //     "service_0vc8lgs",
-        //     "template_0shbg89",
-        //     { ...valores },
-        //     "vQxZH2SWWh0zMBOMa"
-        //   )
-        //   .then(
-        //     function () {
-        //       // console.log("SUCCESS!", response.status, response.text);
-        //       Swal.fire(
-        //         `informacion enviada`,
-        //         `Gracias por confiar en nosotros, en breve nos comunicaremos con usted`,
-        //         "success"
-        //       );
-        //       setspiner(false);
-        //     },
-        //     function () {
-        //       // console.log("FAILED...", error);
-        //       Swal.fire("oh ohh!", `ha pasado un error!`, "error");
-        //       setspiner(false);
-        //     }
-        //   );
+        emailjs
+          .send(
+            "service_h52isud",
+            "template_x1hutvv",
+            { ...valores },
+            "C07lrtakvCdEB1N9t"
+          )
+          .then(
+            function () {
+              // console.log("SUCCESS!", response.status, response.text);
+              Swal.fire(
+                `information sent`,
+                `Thank you for trusting us, we will contact you shortly`,
+                "success"
+              );
+              setspiner(false);
+            },
+            function () {
+              // console.log("FAILED...", error);
+              Swal.fire("oh ohh!", `an error has happened!`, "error");
+              setspiner(false);
+            }
+          );
       }}
 
       //
