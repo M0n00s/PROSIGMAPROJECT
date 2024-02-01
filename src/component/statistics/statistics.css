@@ -1,0 +1,47 @@
+.statsCont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.statsBox{
+    /* background-color: var(--ligth-background); */
+    border-radius: 20px;
+    padding: 1.5em 3em;
+    width: fit-content;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, .35);
+    transition: all .3s;
+    text-align: center;
+
+    
+
+}
+.statsBox h2{
+    color: var(--secondary-text);
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+.statsBox p{
+    color: var(--main-text);
+    line-height: 1em;
+}
+
+.statsBox:hover{
+    
+    background-color: var(--secondary-text);
+}
+
+.statsBox:hover  h2{
+    color: var(--ligth-background);
+}
+
+@media only screen and (max-width: 500px) {
+    .statsBox{
+        width: 90%;
+    }   
+}
