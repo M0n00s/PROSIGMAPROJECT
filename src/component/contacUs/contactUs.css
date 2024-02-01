@@ -1,0 +1,175 @@
+.contact-container{
+    width: 100%;
+    min-height: 80vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7em 2em 2em 2em ;
+    background-color: var(--background-fillColor)
+}
+
+.contact_formCardContainer{
+    display: flex;
+    width: 100%;
+    margin-bottom: 4em;
+}
+.contact_formContainer{
+    width: 70%;
+    padding: 2em 1em;
+}
+.contact_textContainer{
+    padding: 2em 1em;
+
+    border-left: 1px solid white;
+    width: 30%;
+    color: white;
+}
+.contact_textContainerInner{
+    width: 80%;
+    margin: auto;
+    line-height: 2.8em;
+
+}
+.contact_textContainer h3{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+@media screen and (max-width: 800px) {
+ .contact_formContainer, .contact_textContainer{
+    width: 100vw;
+ } 
+ .contact_formCardContainer{
+    flex-wrap: wrap;
+ }
+ .contact-container{
+    padding: 5em 1em 1em 1em ;
+ }
+
+}
+@media screen and (min-width:2000px){
+    .contact_formCardContainer{
+        flex-wrap: wrap;
+        font-size: 3em;
+     }
+     .terminosContainer{
+        font-size: 1em;
+     }
+     .contact_terminosContainer button{
+        font-size: 1em;
+     }
+     .contact_terminosContainer button i{
+        font-size: 1em;
+     }
+}
+
+/*================= formulario =========================*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: .5em;
+}
+.inputbox{
+    width: 100%;
+    outline: none;
+    border: 2px solid var(--main-background);
+    padding: .7em;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.errorInput{
+    border-color: red;
+    /* background-color: red;        */
+}
+.inputbox:focus{
+    border-color: white;
+}
+.formbox1Container{
+    display: flex;
+    justify-content: space-between;
+    gap: .3em;
+}
+.formbox1Container div{
+    display: flex;
+    width: 100%;
+}
+.textArea{
+    width: 100%;
+    resize: vertical;
+    min-height: 50px;
+    font-size: 1em;
+
+}
+::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+@media screen and (max-width: 800px) {
+    .form{
+        width: 100%;
+    }    
+}
+
+/*==================fin formulario ==============================*/
+.contact_terminosContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    gap: .5em;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ligth-background);
+    gap: .5em;
+    width: 100%;
+    padding: 1.5em ;
+    border-radius: 15px;
+    color: var(--main-text);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+.button:hover{
+    background-color: var(--secondary-text);
+}
+.buttonDisabled{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+    /* background-color: var(--ligth-background); */
+    gap: .5em;
+    width: 100%;
+    padding: 1.5em ;
+    border-radius: 15px;
+    color: var(--main-text);
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    transition: .3s;
+
+}
+.terminosContainer{
+    display: flex;
+    gap: .5em;
+}
+.terminosContainer span{
+    border-bottom: 1px solid white;
+}
+.terminosContainer span:hover{
+    cursor: pointer;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.contactUsDataCont{
+    line-height: 1.2em;
+}
