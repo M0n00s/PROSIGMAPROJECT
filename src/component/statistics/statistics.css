@@ -29,6 +29,7 @@
 .statsBox p{
     color: var(--main-text);
     line-height: 1em;
+    text-transform: uppercase;
 }
 
 .statsBox:hover{
