@@ -4,7 +4,7 @@ import "./aboutCard.css";
 const dataCard = [
   {
     img: "https://res.cloudinary.com/dksz8cxlh/image/upload/v1706294930/PROSIGMA/logo-prosigma_qdzjnn.png",
-    title: "punctuality",
+    title: "Punctuality",
     description: "We uphold our commitments in a timely manner.",
   },
   {

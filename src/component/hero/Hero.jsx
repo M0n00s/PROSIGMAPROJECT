@@ -5,17 +5,21 @@ const starsImg =
 export const Hero = () => {
   return (
     <section className="heroContainer">
-      <div className="heroText">
-        <img className="starsImg p2" src={starsImg} alt="" />
-        <h1>
-          provider in the
-          <span className="textNaranja">industrial cleaning</span>
-        </h1>
-        <h2>services that optimize the maintenance of commercial equipment</h2>
-      </div>
-      <div className="heroBtn">
-        <button className="naranja">Contact us</button>
-        <button className="ligthBlue">Services</button>
+      <div className="heroTextCont">
+        <div className="heroText">
+          <h1>
+            provider in the
+            <span className="textNaranja">industrial cleaning</span>
+          </h1>
+          <h2>
+            services that optimize the maintenance of commercial equipment
+          </h2>
+          <div className="heroBtn">
+            <button className="naranja">Contact us</button>
+            <button className="ligthBlue">Services</button>
+          </div>
+        </div>
+        <div className="heroText"></div>
       </div>
     </section>
   );

@@ -1,40 +1,30 @@
 .heroContainer{
     max-width: 1200px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    line-height: 3.5em;
-    padding: 5em 0em;
-    /* border: 1px solid yellow; */
+    padding: 3em 0em;
     position: relative;
+    /* border: 1px solid yellow; */
 
 
+
+}
+.heroTextCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .heroText{
     padding: 3em 0em;
-    width: 100%;
-    position: relative;
-    z-index: 1000;
-    
-}
-/* img position  */
-.starsImg{
-    position: absolute;
+    width: 45%;
+    /* border: 1px solid yellow; */
 }
 
-.p2{
-    top:0 ;
-    right: 20px;  
-    width: 80px;
-    transform: rotate(90deg); 
-    animation-name: bounceStar;
-    animation-duration: 1s ;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 
 @keyframes bounceStar {
     from {
@@ -50,33 +40,37 @@
     font-size: 4em;
     text-transform: uppercase;
     word-wrap: break-word;
+        line-height: 1em;
+
     
 }
 .heroText h2{
     color: var(--main-text);
     font-size: 1em;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
+    line-height: 1em;
+    margin-bottom: 2em;
+
 }
 
 .heroBtn{
-
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    gap: 2em;
-    position: relative;
-    z-index: 1001;
+    gap: 1em;
+
     /* border: 1px solid yellow; */
 }
 
 .heroBtn button{
-    padding: 2em 15em;
+    padding: 1.5em ;
     border-radius: 15px;
     color: var(--main-text);
     text-transform: uppercase;
     border: none;
     outline: none;
     transition: .2s;
+    width: 50%;
     
 }
 .heroBtn button:hover{
@@ -96,10 +90,8 @@
 
 
 @media only screen and (max-width: 1024px) {
-    .heroBtn button{
-        padding: 1.5em 10em;
-        width: 90%;
-    }
+    
+
     .heroText h1{
         font-size: 3.5em;
     }
@@ -107,3 +99,17 @@
         line-height: 1.2em;
     }
 }
+@media only screen and (max-width: 524px) {
+    .heroBtn{
+        flex-wrap: wrap;
+    }
+    .heroBtn button{
+        width: 100%;
+    }
+    .heroText{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+

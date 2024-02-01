@@ -4,8 +4,8 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-    background: rgb(51,43,63);
-    background: linear-gradient(200deg, #4d425f 32%, var(--secondary-text) 100%);
+    /* background: rgb(51,43,63);
+    background: linear-gradient(200deg, #4d425f 32%, var(--secondary-text) 100%); */
     border-radius: 20px;
 	color: var(--main-text);
 	
