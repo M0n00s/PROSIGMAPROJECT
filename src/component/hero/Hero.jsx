@@ -19,7 +19,12 @@ export const Hero = () => {
             <button className="ligthBlue">Services</button>
           </div>
         </div>
-        <div className="heroText"></div>
+        <div className="heroText">
+          <img
+            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706804134/PROSIGMA/pexels-andrea-piacquadio-3831645_eprvmf.png"
+            alt=""
+          />
+        </div>
       </div>
     </section>
   );
