@@ -3,7 +3,7 @@ import "./contactUs.css";
 
 export const ContacUs = () => {
   return (
-    <section className="contact-container">
+    <section id="contact" className="contact-container">
       <div className="contact_formCardContainer">
         <div className="contact_formContainer">
           <Formulario />

@@ -2,7 +2,7 @@ import "./maps.css";
 
 export const Maps = () => {
   return (
-    <section className="mapsCont">
+    <section id="location" className="mapsCont">
       <h3>
         Find Your Local <span className="textNaranja">Prosigma</span>
       </h3>

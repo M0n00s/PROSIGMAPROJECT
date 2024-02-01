@@ -18,3 +18,6 @@
 body{
   background-color: var(--main-background);
 }
+html {
+  scroll-behavior: smooth;
+}

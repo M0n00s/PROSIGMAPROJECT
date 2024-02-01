@@ -30,7 +30,7 @@
 .d-flex p{
     color: var(--main-text);
 }
-.callTextCont button{
+.callTextCont a{
     padding: 2em 7em;
     border-radius: 25px;
     border: none;
@@ -38,8 +38,9 @@
     text-transform: uppercase;
     color: var(--main-text);
     background-color: var(--secondary-text);
+    text-decoration: none;
 }
-.callTextCont button:hover{
+.callTextCont a:hover{
     background-color: var(--secondary-text);
     box-shadow: 0px 0px 5px var(--main-text);
     cursor: pointer;
@@ -49,14 +50,14 @@
     .callTextCont{
         flex-wrap: wrap;
     }
-    .callTextCont button{
+    .callTextCont a{
         width: 100%;
     }
     
 }
 
 @media only screen and (max-width: 800px) {
-    .callTextCont button{
+    .callTextCont a{
         width: 100%;
     }
     .d-flex img{

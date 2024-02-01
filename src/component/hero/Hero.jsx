@@ -4,7 +4,7 @@ const starsImg =
 
 export const Hero = () => {
   return (
-    <section className="heroContainer">
+    <section id="home" className="heroContainer">
       <div className="heroTextCont">
         <div className="heroText">
           <h1>
@@ -15,8 +15,12 @@ export const Hero = () => {
             services that optimize the maintenance of commercial equipment
           </h2>
           <div className="heroBtn">
-            <button className="naranja">Contact us</button>
-            <button className="ligthBlue">Services</button>
+            <a href="#contact" className="naranja">
+              Contact us
+            </a>
+            <a href="#services" className="ligthBlue">
+              Services
+            </a>
           </div>
         </div>
         <div className="heroText">

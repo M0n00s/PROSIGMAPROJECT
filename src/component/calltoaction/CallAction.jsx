@@ -17,7 +17,7 @@ export const CallAction = () => {
             </p>
           </div>
         </div>
-        <button>Contact us</button>
+        <a href="#contact">Contact us</a>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ import { AboutCard } from "../aboutCard/AboutCard";
 import "./about.css";
 export const AboutUs = () => {
   return (
-    <section className="aboutContainer">
+    <section id="about" className="aboutContainer">
       <div>
         <h3>
           Welcome to <span className="textNaranja">PROSIGMA</span>

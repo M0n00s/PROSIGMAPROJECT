@@ -8,7 +8,14 @@ header {
     background: linear-gradient(200deg, #4d425f 32%, var(--secondary-text) 100%); */
     border-radius: 20px;
 	color: var(--main-text);
+	position: sticky;
+	top: 0;
+	z-index: 1000000;
 	
+	
+}
+.headerBackground{
+	background-color: var(--main-background);
 }
 .logoImg{
 	height: 50%;

@@ -29,7 +29,7 @@ const servicesBox = [
 
 export const Services = () => {
   return (
-    <section>
+    <section id="services">
       <h2 className="servicesTitle">
         Our <span className="textNaranja"> Services</span> &{" "}
         <span className="textNaranja">Products</span>
