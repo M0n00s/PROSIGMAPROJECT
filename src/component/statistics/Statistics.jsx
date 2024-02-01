@@ -3,15 +3,15 @@ import "./statistics.css";
 const statistics = [
   {
     title: "24H",
-    subtitle: "Tiempo de respuesta",
+    subtitle: "Response time",
   },
   {
     title: "35+",
-    subtitle: "Cantidad de tiendas atendidas",
+    subtitle: "Number of stores served",
   },
   {
     title: "100%",
-    subtitle: "Clentes felices",
+    subtitle: "Happy customers",
   },
 ];
 
