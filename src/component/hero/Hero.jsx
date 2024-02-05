@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="heroTextCont">
         <div className="heroText">
           <h1>
-            provider in the
+            <span className="textNaranja">PROSIGMA</span>, provider in the
             <span className="textNaranja">industrial cleaning</span>
           </h1>
           <h2>
