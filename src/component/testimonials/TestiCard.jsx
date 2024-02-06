@@ -19,7 +19,6 @@ export const TestiCard = ({ icon, title, description, name, jobs }) => {
         </div>
       </div>
       <div className="testimonialsPersonCont">
-        {/* <img src={img} alt="" /> */}
         <div>
           <h3 className="textMain">{name}</h3>
           <p className="textNaranja">{jobs}</p>

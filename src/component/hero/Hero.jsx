@@ -8,11 +8,17 @@ export const Hero = () => {
       <div className="heroTextCont">
         <div className="heroText">
           <h1>
-            <span className="textNaranja">PROSIGMA</span>, provider in the
-            <span className="textNaranja">industrial cleaning</span>
+            <img
+              className="herotectimglogo"
+              src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706311083/PROSIGMA/Sin-t%C3%ADtulo-1_za3hyt.png"
+              alt=""
+            />
+            <span className="textNaranja">ROSIGMA</span>
           </h1>
+
           <h2>
-            services that optimize the maintenance of commercial equipment
+            we are provider in the services industrial cleaning and optimize the
+            maintenance of commercial equipment
           </h2>
           <div className="heroBtn">
             <a href="#contact" className="naranja">
@@ -25,8 +31,9 @@ export const Hero = () => {
         </div>
         <div className="heroText">
           <img
-            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706804134/PROSIGMA/pexels-andrea-piacquadio-3831645_eprvmf.png"
-            alt=""
+            className="heroTextImg"
+            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707249195/PROSIGMA/pexels-andrea-piacquadio-38316a45_jv0dno.webp"
+            alt="hero-img"
           />
         </div>
       </div>

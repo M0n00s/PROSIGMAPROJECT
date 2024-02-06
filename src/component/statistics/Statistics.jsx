@@ -6,12 +6,12 @@ const statistics = [
     subtitle: "Response time",
   },
   {
-    title: "35+",
-    subtitle: "Number of stores served",
+    title: "50+",
+    subtitle: "clients in all Central Florida",
   },
   {
     title: "100%",
-    subtitle: "Happy customers",
+    subtitle: "Happy Clients",
   },
 ];
 

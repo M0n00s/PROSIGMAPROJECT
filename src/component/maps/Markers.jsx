@@ -19,7 +19,7 @@ export const Markers = () => {
               padding: "0.4em",
             }}
             src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706311083/PROSIGMA/Sin-t%C3%ADtulo-1_za3hyt.png"
-            alt=""
+            alt="img-icon-markers"
           />
         </AdvancedMarker>
       ))}

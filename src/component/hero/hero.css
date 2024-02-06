@@ -24,10 +24,18 @@
     /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    
 }
+.herotectimglogo{
+    height: 3em;
+    width: 3em;
+    margin-bottom: -.3em;
+    margin-right: -.4em;
+    margin-left: -.5em;
 
+}
 
 @keyframes bounceStar {
     from {
@@ -40,7 +48,7 @@
 /*  */
 .heroText h1{
     color: var(--main-text);
-    font-size: 4em;
+    font-size: 3.7em;
     text-transform: uppercase;
     word-wrap: break-word;
         line-height: 1em;
@@ -56,7 +64,7 @@
     margin-bottom: 2em;
 
 }
-.heroText img{
+.heroTextImg{
     width: 100%;
     margin-top: -4em;
     margin-right: -5em;
@@ -108,7 +116,7 @@
     
 
     .heroText h1{
-        font-size: 3.5em;
+        font-size: 3em;
     }
     .heroText h2{
         line-height: 1.2em;
@@ -125,8 +133,16 @@
         width: 90%;
         margin: auto;
     }
-    .heroText img{
+    .heroTextImg{
         margin: 0;
+    }
+    .herotectimglogo{
+        height: 2em;
+        width: 2em;
+        margin-bottom: -.2em;
+        margin-right: -.2em;
+        margin-left: -.3em;
+    
     }
 }
 

@@ -12,16 +12,10 @@ export const AboutUs = () => {
           kitchen equipment for restaurant chains and franchises. Established in
           2015 by engineer Gustavo Villamizar, our company emerged with the
           vision to offer specialized outsourcing services that optimize the
-          maintenance of commercial equipment.
+          operation and function of the commercial food equipment.
         </p>
       </div>
       <div className="aboutBoxes">
-        {/* <div className="aboutLogoCont">
-          <img
-            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706294930/PROSIGMA/logo-prosigma_qdzjnn.png"
-            alt=""
-          />
-        </div> */}
         <div className="aboutCaraterCont">
           <p>
             At PROSIGMA, we believe in boosting our clients' productivity. We
