@@ -1,6 +1,4 @@
 import "./hero.css";
-const starsImg =
-  "https://res.cloudinary.com/dksz8cxlh/image/upload/v1706218738/PROSIGMA/clean-and-hygiene-symbol-sparkle-shine-and-twinkle-icon-illustration-free-vector_jojust.png";
 
 export const Hero = () => {
   return (
