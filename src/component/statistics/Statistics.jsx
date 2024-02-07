@@ -1,6 +1,16 @@
 import "./statistics.css";
+import { FaHandHoldingDollar } from "react-icons/fa6";
+import { TbClockDollar } from "react-icons/tb";
 
 const statistics = [
+  {
+    title: <TbClockDollar />,
+    subtitle: "save time and increases profit",
+  },
+  {
+    title: <FaHandHoldingDollar />,
+    subtitle: "lavor saving",
+  },
   {
     title: "24H",
     subtitle: "Response time",

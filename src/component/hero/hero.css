@@ -29,10 +29,10 @@
     
 }
 .herotectimglogo{
-    height: 3em;
-    width: 3em;
-    margin-bottom: -.3em;
-    margin-right: -.4em;
+    height: 1.05em;
+    width: 1.05em;
+    margin-bottom: -.15em;
+    margin-right: -.3em;
     margin-left: -.5em;
 
 }
@@ -48,7 +48,7 @@
 /*  */
 .heroText h1{
     color: var(--main-text);
-    font-size: 3.7em;
+    font-size: 6.2em;
     text-transform: uppercase;
     word-wrap: break-word;
         line-height: 1em;
@@ -59,8 +59,9 @@
 .heroText h2{
     color: var(--main-text);
     font-size: 1em;
-    letter-spacing: .1em;
-    line-height: 1em;
+    /* letter-spacing: .1em; */
+    line-height: 1.2em;
+    margin-left: -1em;
     margin-bottom: 2em;
 
 }
@@ -116,7 +117,8 @@
     
 
     .heroText h1{
-        font-size: 3em;
+        font-size: 3.9em;
+
     }
     .heroText h2{
         line-height: 1.2em;
@@ -136,13 +138,11 @@
     .heroTextImg{
         margin: 0;
     }
-    .herotectimglogo{
-        height: 2em;
-        width: 2em;
-        margin-bottom: -.2em;
-        margin-right: -.2em;
-        margin-left: -.3em;
-    
+    .heroText h1{
+        margin-left: .5em;
+    }
+    .heroText h2{
+        margin-left: 0;
     }
 }
 

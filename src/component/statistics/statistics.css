@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
-    gap: 2em;
+    gap: .5em;
     margin-bottom: 4em;
 }
 
@@ -12,7 +12,8 @@
     /* background-color: var(--ligth-background); */
     border-radius: 20px;
     padding: 1.5em 3em;
-    width: fit-content;
+    width: 18%;
+    min-width: ;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .35);
     transition: all .3s;
     text-align: center;
@@ -41,8 +42,17 @@
     color: var(--ligth-background);
 }
 
+
+@media only screen and (max-width: 1100px) {
+    .statsBox{
+        width: 18%;
+        min-width:180px ;
+        padding: 1em 0.5em;
+    }   
+}
 @media only screen and (max-width: 500px) {
     .statsBox{
         width: 90%;
+
     }   
 }

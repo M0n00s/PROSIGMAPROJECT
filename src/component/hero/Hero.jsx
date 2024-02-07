@@ -17,8 +17,10 @@ export const Hero = () => {
           </h1>
 
           <h2>
-            we are provider in the services industrial cleaning and optimize the
-            maintenance of commercial equipment
+            We are service providers in industrial cleaning and optimization of
+            the maintenance of Shake machines, and all their components, in the
+            kitchen area of restaurant chains and franchises recognized
+            worldwide.
           </h2>
           <div className="heroBtn">
             <a href="#contact" className="naranja">
@@ -32,7 +34,7 @@ export const Hero = () => {
         <div className="heroText">
           <img
             className="heroTextImg"
-            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707249195/PROSIGMA/pexels-andrea-piacquadio-38316a45_jv0dno.webp"
+            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707335125/PROSIGMA/pexels-andrea-piacquadio-3831645_1_r4huar.webp"
             alt="hero-img"
           />
         </div>
