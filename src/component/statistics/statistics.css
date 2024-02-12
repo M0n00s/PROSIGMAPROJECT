@@ -32,12 +32,22 @@
     line-height: 1em;
     text-transform: uppercase;
 }
-
-.statsBox:hover{
-    
-    background-color: var(--secondary-text);
+.back{
+    display: none;
+    font-size: .6em;
+    line-height: 2em;
+    transition: all 3s;    
 }
 
+.statsBox:hover{
+    background-color: var(--secondary-text);
+}
+.statsBox:hover .back{
+    display: block;
+}
+.statsBox:hover .front{
+    display: none;
+}
 .statsBox:hover  h2{
     color: var(--ligth-background);
 }
@@ -54,5 +64,14 @@
     .statsBox{
         width: 90%;
 
-    }   
+    }  
+    .back{
+        font-size: 1em;
+    } 
+
 }
+
+
+
+
+

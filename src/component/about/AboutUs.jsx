@@ -18,11 +18,11 @@ export const AboutUs = () => {
       <div className="aboutBoxes">
         <div className="aboutCaraterCont">
           <p>
-            At PROSIGMA, we believe in boosting our clients' productivity. We
-            deliver optimal and efficient technical services, allowing each
-            restaurant to focus on its core business. Our proposition is
-            straightforward: provide specialized maintenance that ensures
-            operational continuity without interruptions.
+            <span className="textNaranja">PROSIGMA</span> implement preventive
+            maintenance programs for your smoothie machines. This includes
+            regular inspections, deep cleaning, and necessary adjustments to
+            prevent issues before they occur, minimizing downtime and ensuring
+            continuous operation.
           </p>
           <AboutCard />
         </div>

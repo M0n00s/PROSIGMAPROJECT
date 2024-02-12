@@ -14,7 +14,7 @@ export const ContacUs = () => {
             <div className="contactUsDataCont">
               Email
               <br />
-              <span className="textNaranja"> info@prosigmausa.com</span> <br />
+              <span className="textNaranja"> rrhh@prosigmausa.com</span> <br />
               <br />
               Phone Number
               <br />

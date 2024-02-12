@@ -12,6 +12,7 @@ const statistics = [
     key: 2,
     title: <FaHandHoldingDollar />,
     subtitle: "lavor saving",
+    text: "PROSIGMA shake machine clean and maintenance can lead to significant long-term savings. You avoid the costs associated with hiring internal staff, training, and acquiring specialized tools and spare parts, allowing you to optimize your financial resources.",
   },
   {
     key: 3,
@@ -34,10 +35,26 @@ export const Statistics = () => {
   return (
     <section className="statsCont">
       {statistics.map((stats) => (
-        <div className="statsBox" key={stats.key}>
-          <h2>{stats.title}</h2>
-          <p>{stats.subtitle}</p>
-        </div>
+        <>
+          {stats.key !== 2 ? (
+            <div className="statsBox" key={stats.key}>
+              <h2>{stats.title}</h2>
+              <p>{stats.subtitle}</p>
+            </div>
+          ) : (
+            <div class="statsBox">
+              <div class="content">
+                <div class=" front">
+                  <h2>{stats.title}</h2>
+                  <p>{stats.subtitle}</p>
+                </div>
+                <div class=" back">
+                  <p>{stats.text}</p>
+                </div>
+              </div>
+            </div>
+          )}
+        </>
       ))}
     </section>
   );
