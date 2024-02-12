@@ -37,18 +37,18 @@ export const Statistics = () => {
       {statistics.map((stats) => (
         <>
           {stats.key !== 2 ? (
-            <div className="statsBox" key={stats.key}>
+            <div className="statsBox">
               <h2>{stats.title}</h2>
               <p>{stats.subtitle}</p>
             </div>
           ) : (
-            <div class="statsBox">
-              <div class="content">
-                <div class=" front">
+            <div className="statsBox">
+              <div className="content">
+                <div className=" front">
                   <h2>{stats.title}</h2>
                   <p>{stats.subtitle}</p>
                 </div>
-                <div class=" back">
+                <div className=" back">
                   <p>{stats.text}</p>
                 </div>
               </div>
