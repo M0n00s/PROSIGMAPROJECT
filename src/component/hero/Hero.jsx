@@ -9,7 +9,7 @@ export const Hero = () => {
             <img
               className="herotectimglogo"
               src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706311083/PROSIGMA/Sin-t%C3%ADtulo-1_za3hyt.png"
-              alt=""
+              alt="p-img"
             />
             <span className="textNaranja">ROSIGMA</span>
           </h1>
@@ -32,7 +32,7 @@ export const Hero = () => {
         <div className="heroText">
           <img
             className="heroTextImg"
-            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707335125/PROSIGMA/pexels-andrea-piacquadio-3831645_1_r4huar.webp"
+            src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707830484/PROSIGMA/WhatsApp-Image-2024-02-08-at-11.51_hlw6oe.webp"
             alt="hero-img"
           />
         </div>
