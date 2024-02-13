@@ -132,6 +132,16 @@
     
 }
 
+@media only screen and (max-width: 800px) {
+    .ServicesWrapper article h3  {
+        font-size: 2em;
+    }
+
+    .ServicesWrapper article p  {
+        font-size: 1em;
+    }
+}
+
 
 
 
