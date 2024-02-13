@@ -8,7 +8,7 @@ export const AboutUs = () => {
           Welcome to <span className="textNaranja">PROSIGMA</span>
         </h3>
         <p>
-          a leading provider in the industrial cleaning and maintenance of
+          A leading provider in the industrial cleaning and maintenance of
           kitchen equipment for restaurant chains and franchises. Established in
           2015 by engineer Gustavo Villamizar, our company emerged with the
           vision to offer specialized outsourcing services that optimize the

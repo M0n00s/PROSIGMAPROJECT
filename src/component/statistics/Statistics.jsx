@@ -39,14 +39,14 @@ export const Statistics = () => {
           {stats.key !== 2 ? (
             <div className="statsBox">
               <h2>{stats.title}</h2>
-              <p>{stats.subtitle}</p>
+              <p className="stats-subtitle">{stats.subtitle}</p>
             </div>
           ) : (
             <div className="statsBox">
               <div className="content">
                 <div className=" front">
                   <h2>{stats.title}</h2>
-                  <p>{stats.subtitle}</p>
+                  <p className="stats-subtitle">{stats.subtitle}</p>
                 </div>
                 <div className=" back">
                   <p>{stats.text}</p>

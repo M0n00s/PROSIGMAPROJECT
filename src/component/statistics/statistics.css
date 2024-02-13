@@ -27,16 +27,17 @@
     margin: 0;
     padding: 0;
 }
-.statsBox p{
+.stats-subtitle{
     color: var(--main-text);
     line-height: 1em;
     text-transform: uppercase;
 }
 .back{
     display: none;
-    font-size: .6em;
-    line-height: 2em;
+    font-size: .65em;
+    line-height: 1.1em;
     transition: all 3s;    
+    color: var(--main-text);
 }
 
 .statsBox:hover{
