@@ -60,25 +60,25 @@ export const Services = () => {
             >
               <SwiperSlide>
                 <img
-                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707755616/PROSIGMA/w1_zzogkf.jpg"
+                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1708725284/PROSIGMA/ruDw9tL7t5keQsAS8_YEt-transdformed_sdpw2m.jpg"
                   alt="img-serv"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707755616/PROSIGMA/w_ciaxkx.jpg"
+                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1708725284/PROSIGMA/ruDw9tL7t5keQsAS8_YEt-transformed_ulgtfm.jpg"
                   alt="img-serv"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707755616/PROSIGMA/w3_vaf1cu.jpg"
+                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1708725290/PROSIGMA/ruDw9tL7t5keQsAS8_YEt-transfgormed_rtho2k.jpg"
                   alt="img-serv"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1707755616/PROSIGMA/w2_wetwqm.jpg"
+                  src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1708725287/PROSIGMA/ddf_j6lyud.jpg"
                   alt="img-serv"
                 />
               </SwiperSlide>
