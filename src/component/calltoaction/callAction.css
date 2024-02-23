@@ -26,9 +26,11 @@
     color: var(--secondary-text);
     text-transform: uppercase;
     font-size: 2em;
+    text-align: justify;
 }
 .d-flex p{
     color: var(--main-text);
+    text-align: justify;
 }
 .callTextCont a{
     padding: 2em 7em;
@@ -59,8 +61,17 @@
 @media only screen and (max-width: 800px) {
     .callTextCont a{
         width: 100%;
+        padding: 2em;
+        margin-top: 1em;
+        text-align: center;
     }
     .d-flex img{
         display: none; 
+   }
+   .d-flex h2{
+     font-size: 1.7em;
+   }
+   .d-flex p{
+    line-height: 1.5em;
    }
 }

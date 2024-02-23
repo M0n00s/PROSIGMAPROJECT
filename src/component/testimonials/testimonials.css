@@ -32,6 +32,7 @@ width: 40%;
 .testimonialsTextCont p{
     line-height: 1.2em;
     color: var(--main-text);
+    text-align: justify;
 }
 
 .testiStars{
