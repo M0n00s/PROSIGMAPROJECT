@@ -19,7 +19,7 @@ export const App = () => {
       <Services />
       <CallAction />
       <Maps />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContacUs />
       <Footer />
     </>

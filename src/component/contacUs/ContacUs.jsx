@@ -18,12 +18,14 @@ export const ContacUs = () => {
               <br />
               Phone Number
               <br />
-              <span className="textNaranja"> +58-424-2812010</span>
+              <span className="textNaranja"> {`+1 (407) 765 5499`}</span>
               <br />
               <br />
-              Adress
+              Address
               <br />
-              <span className="textNaranja"> Miami, FL</span>
+              <span className="textNaranja">
+                10524 Moss Park Rd, Ste. 204-149, Orlando FL 32833 United States
+              </span>
             </div>
           </div>
         </div>

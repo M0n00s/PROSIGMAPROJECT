@@ -11,7 +11,7 @@ const statistics = [
   {
     key: 2,
     title: <FaHandHoldingDollar />,
-    subtitle: "lavor saving",
+    subtitle: "labor saving",
     text: "PROSIGMA shake machine clean and maintenance can lead to significant long-term savings. You avoid the costs associated with hiring internal staff, training, and acquiring specialized tools and spare parts, allowing you to optimize your financial resources.",
   },
   {

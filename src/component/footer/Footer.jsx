@@ -8,8 +8,8 @@ export const Footer = () => {
       <div className="footer-container">
         <h3 className="website-logo textNaranja">PROSIGMA</h3>
         <div className="footer-content-container">
-          <span className="footer-info">+58-424-2812010</span>
-          <span className="footer-info">INFO@PROSIGMAUSA.COM</span>
+          <span className="footer-info">{`+1 (407) 765 5499`}</span>
+          <span className="footer-info">RRHH@PROSIGMAUSA.COM</span>
         </div>
         <div className="footer-menus">
           <div className="footer-content-container">
@@ -33,10 +33,18 @@ export const Footer = () => {
 
         <div className="footer-content-container">
           <div className="social-container">
-            <a href="" className="social-link">
+            <a
+              href="https://www.facebook.com/profile.php?id=100080335677418"
+              target="blank"
+              className="social-link"
+            >
               <FaFacebookF color="white" size={20} />
             </a>
-            <a href="" className="social-link">
+            <a
+              href="https://www.instagram.com/prosigma_llc/"
+              target="blank"
+              className="social-link"
+            >
               <FaInstagram color="white" size={20} />
             </a>
             <a href="" className="social-link">
