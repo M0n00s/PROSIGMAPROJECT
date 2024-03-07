@@ -19,9 +19,9 @@ export const AboutUs = () => {
         <div className="aboutCaraterCont">
           <p>
             <span className="textNaranja">PROSIGMA</span> implement preventive
-            maintenance programs for your smoothie machines. This includes
-            regular inspections, deep cleaning, and necessary adjustments to
-            prevent issues before they occur, minimizing downtime and ensuring
+            maintenance programs for your Shake machines. This includes regular
+            inspections, deep cleaning, and necessary adjustments to prevent
+            issues before they occur, minimizing downtime and ensuring
             continuous operation.
           </p>
           <AboutCard />

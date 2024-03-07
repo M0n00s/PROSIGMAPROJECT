@@ -47,9 +47,6 @@ export const Footer = () => {
             >
               <FaInstagram color="white" size={20} />
             </a>
-            <a href="" className="social-link">
-              <FaXTwitter color="white" size={20} />
-            </a>
           </div>
         </div>
       </div>
