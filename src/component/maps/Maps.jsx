@@ -6,9 +6,14 @@ import {
 } from "@vis.gl/react-google-maps";
 import "./maps.css";
 import { Markers } from "./Markers";
+import { useEffect } from "react";
 
 export const Maps = () => {
-  const position = { lat: 25.77427, lng: -80.19366 };
+  const position = {
+    lat: window.innerWidth < 800 ? 28.82 : 28.59,
+    lng: -81.24130984885234,
+  };
+  console.log(window.innerWidth);
 
   return (
     <section id="location" className="mapsCont">
@@ -18,7 +23,7 @@ export const Maps = () => {
       <div className="mapsBoxCont">
         <APIProvider apiKey={import.meta.env.VITE_MAPS_APIKEY}>
           <Map
-            zoom={14}
+            zoom={window.innerWidth < 800 ? 9 : 10}
             center={position}
             mapId={import.meta.env.VITE_MAPS_ID}
             style={{ height: "100%", width: "100%" }}

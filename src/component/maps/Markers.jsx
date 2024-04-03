@@ -1,11 +1,8 @@
 import React from "react";
 import { AdvancedMarker } from "@vis.gl/react-google-maps";
 
-const points = [
-  { key: "pont1", lat: 25.77427, lng: -80.19366 },
-  { key: "pont2", lat: 25.78448, lng: -80.19366 },
-  { key: "pont3", lat: 25.78348, lng: -80.20366 },
-];
+const points = [{ key: "pont1", lat: 28.39, lng: -81.24130984885234 }];
+
 export const Markers = () => {
   return (
     <>
@@ -13,10 +10,10 @@ export const Markers = () => {
         <AdvancedMarker position={point} key={point.key}>
           <img
             style={{
-              width: "25px",
-              backgroundColor: "black",
+              width: "350px",
+              backgroundColor: "rgba(0,0,0,0.3)",
               borderRadius: "50%",
-              padding: "0.4em",
+              padding: "8em",
             }}
             src="https://res.cloudinary.com/dksz8cxlh/image/upload/v1706311083/PROSIGMA/Sin-t%C3%ADtulo-1_za3hyt.png"
             alt="img-icon-markers"
