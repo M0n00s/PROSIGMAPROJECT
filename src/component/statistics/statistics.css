@@ -70,7 +70,11 @@
         width: 18%;
         min-width:180px ;
         padding: 1em 0.5em;
+
     }   
+    .back{
+        font-size: .6em;
+    } 
 }
 @media only screen and (max-width: 500px) {
     .statsBox{
@@ -78,7 +82,7 @@
 
     }  
     .back{
-        font-size: 1em;
+        font-size: .85em;
     } 
 
 }

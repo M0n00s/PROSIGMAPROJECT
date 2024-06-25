@@ -49,6 +49,7 @@
     font-size: 3em;
     line-height: 1em;
     transition: all .3s;
+    text-align: center;
     
 
 }
@@ -139,6 +140,9 @@
 
     .ServicesWrapper article p  {
         font-size: 1em;
+    }
+    .efect{
+        padding: 1em;
     }
 }
 

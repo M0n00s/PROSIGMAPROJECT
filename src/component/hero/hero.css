@@ -50,9 +50,9 @@
     color: var(--main-text);
     font-size: 6.2em;
     text-transform: uppercase;
-    word-wrap: break-word;
-        line-height: 1em;
-        width: 100%;
+    /* word-wrap: break-word; */
+    line-height: 1em;
+    width: 100%;
 
     
 }
