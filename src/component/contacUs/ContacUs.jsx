@@ -10,7 +10,11 @@ export const ContacUs = () => {
         </div>
         <div className="contact_textContainer">
           <div className="contact_textContainerInner">
-            <h3>Ask us about anything</h3>
+            <h3>Have questions or inquiries? </h3>
+            <p className="small">
+              Reach out to us today and let's discuss how we can assist you.
+            </p>
+
             <div className="contactUsDataCont">
               Email
               <br />

@@ -6,19 +6,19 @@
     justify-content: center;
     gap: .5em;
     margin-bottom: 4em;
+ 
+
 }
 
 .statsBox{
     /* background-color: var(--ligth-background); */
     border-radius: 20px;
-    padding: 1.5em 3em;
+    padding: 2em 1em;
     width: 18%;
     min-width: 180px;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .35);
     transition: all .3s;
-    text-align: center;
-
-    
+    text-align: center;    
 
 }
 .statsBox h2{
@@ -39,6 +39,16 @@
     transition: all 3s;    
     text-align: justify;
     color: var(--main-text);
+    padding: 0;
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.back, .front{
+    height: 170px;
 }
 
 .statsBox:hover{

@@ -15,10 +15,9 @@ export const Hero = () => {
           </h1>
 
           <h2>
-            We are service providers in industrial cleaning and optimization of
-            the maintenance of Shake machines, and all their components, in the
-            kitchen area of restaurant chains and franchises recognized
-            worldwide.
+            We specialize in industrial cleaning and maintenance optimization
+            for shake machines and their components within the kitchen areas of
+            globally recognized restaurant chains and franchises.
           </h2>
           <div className="heroBtn">
             <a href="#contact" className="naranja">

@@ -10,11 +10,8 @@ export const CallAction = () => {
             alt="image-contact"
           />
           <div>
-            <h2>Contact us and be part of the change.</h2>
-            <p>
-              If you have any questions or concerns about our services, do not
-              hesitate to contact us.
-            </p>
+            {/* <h2>Contact us and be part of the change.</h2> */}
+            <p>Reach out to us today for expert maintenance solutions!</p>
           </div>
         </div>
         <a href="#contact">Contact us</a>

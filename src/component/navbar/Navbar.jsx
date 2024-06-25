@@ -45,7 +45,7 @@ export const Navbar = () => {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#location">Location</a>
+        <a href="#location">Locations</a>
         <a href="#contact">Contact us</a>
         <button
           className="nav-btn nav-close-btn"

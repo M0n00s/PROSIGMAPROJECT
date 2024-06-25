@@ -28,12 +28,18 @@
 .contact_textContainerInner{
     width: 80%;
     margin: auto;
-    line-height: 2.8em;
+    line-height: 2.5em;
 
 }
+.small{
+    font-size: 1em;
+    line-height: 1em;
+    padding-top: .5em;
+    margin-bottom: 1.5em;
+}
 .contact_textContainer h3{
-    font-size: 3em;
-    margin-bottom: .5em;
+    font-size: 2.5em;
+    /* margin-bottom: .5em; */
 }
 @media screen and (max-width: 800px) {
  .contact_formContainer, .contact_textContainer{

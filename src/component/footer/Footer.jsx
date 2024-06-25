@@ -23,7 +23,7 @@ export const Footer = () => {
               Services
             </a>
             <a href="#location" className="menu-item-footer">
-              Location
+              Locations
             </a>
             <a href="#contact" className="menu-item-footer">
               Contact us

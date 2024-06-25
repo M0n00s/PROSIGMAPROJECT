@@ -5,24 +5,26 @@ export const AboutUs = () => {
     <section id="about" className="aboutContainer">
       <div>
         <h3>
-          Welcome to <span className="textNaranja">PROSIGMA</span>
+          Transforming Kitchen Equipment
+          <span className="textNaranja"> Performance</span>
         </h3>
         <p>
-          A leading provider in the industrial cleaning and maintenance of
-          kitchen equipment for restaurant chains and franchises. Established in
-          2015 by engineer Gustavo Villamizar, our company emerged with the
-          vision to offer specialized outsourcing services that optimize the
-          operation and function of the commercial food equipment.
+          A leading provider in industrial cleaning and maintenance of kitchen
+          equipment for restaurant chains and franchises, PROSIGMA was
+          established in 2015 by engineer Gustavo Villamizar. Our company
+          emerged with a vision to offer specialized outsourcing services that
+          optimize the operation and function of commercial food equipment.
         </p>
       </div>
       <div className="aboutBoxes">
         <div className="aboutCaraterCont">
           <p>
-            <span className="textNaranja">PROSIGMA</span> implement preventive
-            maintenance programs for your Shake machines. This includes regular
-            inspections, deep cleaning, and necessary adjustments to prevent
-            issues before they occur, minimizing downtime and ensuring
-            continuous operation.
+            <span className="textNaranja">At PROSIGMA</span> , we implement
+            preventive maintenance programs for your Shake machines, which
+            include regular inspections, deep cleaning, and necessary
+            adjustments to prevent issues before they occur. This approach
+            minimizes downtime and ensures continuous operation, helping you
+            maintain peak efficiency.
           </p>
           <AboutCard />
         </div>

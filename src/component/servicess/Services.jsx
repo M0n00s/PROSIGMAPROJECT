@@ -10,9 +10,9 @@ import "./services.css";
 const servicesBox = [
   {
     className: "box1",
-    title: "Profesional Shake machine cleaning",
+    title: "Maximize Shake Machine Performance with PROSIGMA.",
     subTitle:
-      "In the competitive world of the  shake machine every minute counts. Keeping your shakes machines in top condition is essential to ensure smooth operations and customer satisfaction. Discover how PROSIGMA maintenance, can be the solution you’re looking for.",
+      "In the competitive world of shake machines, every minute counts. Maintaining your shake machines in top condition is crucial for ensuring smooth operations and customer satisfaction. Explore how PROSIGMA's maintenance services can provide the solution you're seeking.",
   },
   // {
   //   className: "box2",
@@ -38,8 +38,7 @@ export const Services = () => {
   return (
     <section id="services">
       <h2 className="servicesTitle">
-        Our <span className="textNaranja"> Services</span> &{" "}
-        <span className="textNaranja">Products</span>
+        <span className="textNaranja">PROSIGMA's</span> Expert Services
       </h2>
       <div className="ServicesWrapper">
         {servicesBox.map((service) => (
