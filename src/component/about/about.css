@@ -7,6 +7,7 @@
     font-size: 3em;
     padding-bottom: 1em;
     padding-top: 1.5em;
+    line-height: 1.2em;
 }
 .aboutContainer p{
     color: var(--main-text);
