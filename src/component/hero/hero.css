@@ -118,11 +118,15 @@
     
 
     .heroText h1{
-        font-size: 3.9em;
+        font-size: 3.4em;
 
     }
     .heroText h2{
         line-height: 1.2em;
+    }
+    .herotectimglogo{
+        height: 1.04em;
+        width: 1.04em;
     }
 }
 @media only screen and (max-width: 524px) {
